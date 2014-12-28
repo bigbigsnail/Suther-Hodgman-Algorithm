@@ -1,0 +1,24 @@
+﻿生成启动时间为 2014/12/26 9:57:28。
+     1>项目“C:\Users\bigbigsnail\Desktop\Code\SutherHodgman\SutherHodgman\SutherHodgman.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SutherHodgman.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SutherHodgman.cpp SutherHodgmanDlg.cpp
+         SutherHodgmanDlg.cpp
+     1>c:\users\bigbigsnail\desktop\code\sutherhodgman\sutherhodgman\sutherhodgmandlg.cpp(333): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\bigbigsnail\desktop\code\sutherhodgman\sutherhodgman\sutherhodgmandlg.cpp(378): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\bigbigsnail\desktop\code\sutherhodgman\sutherhodgman\sutherhodgmandlg.cpp(432): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\bigbigsnail\desktop\code\sutherhodgman\sutherhodgman\sutherhodgmandlg.cpp(492): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         SutherHodgman.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bigbigsnail\Desktop\Code\SutherHodgman\Debug\SutherHodgman.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\bigbigsnail\Desktop\Code\SutherHodgman\Debug\SutherHodgman.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bigbigsnail\Desktop\Code\SutherHodgman\Debug\SutherHodgman.lib" /MACHINE:X86 Debug\SutherHodgman.res
+         Debug\stdafx.obj
+         Debug\SutherHodgman.obj
+         Debug\SutherHodgmanDlg.obj
+     1>SutherHodgmanDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall CSutherHodgmanDlg::OnLButtonDown(unsigned int,class CPoint)" (?OnLButtonDown@CSutherHodgmanDlg@@QAEXIVCPoint@@@Z)
+     1>C:\Users\bigbigsnail\Desktop\Code\SutherHodgman\Debug\SutherHodgman.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\bigbigsnail\Desktop\Code\SutherHodgman\SutherHodgman\SutherHodgman.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.10
